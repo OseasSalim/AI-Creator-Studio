@@ -11,7 +11,8 @@
     "lint": "npm run lint --workspaces --if-present",
     "typecheck": "npm run build --workspace @ai-creator-studio/shared && npm run typecheck --workspaces --if-present",
     "build": "npm run build --workspace @ai-creator-studio/shared && npm run build --workspace @ai-creator-studio/api && npm run build --workspace @ai-creator-studio/web",
-    "format": "prettier --write ."
+    "format": "prettier --write .",
+    "test": "npm run test --workspaces --if-present"
   },
   "devDependencies": {
     "@types/node": "^22.10.2",

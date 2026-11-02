@@ -4,7 +4,7 @@ O AI Creator Studio é uma plataforma SaaS para transformar ideias em roteiros, 
 
 ## Estado atual
 
-A Etapa 01 — Fundação foi implementada. Autenticação, banco, armazenamento, IA, pagamentos e processamento de vídeo permanecem no roadmap e não fazem parte desta entrega.
+A Etapa 01 — Fundação foi implementada. A Etapa 02 está em progresso: a integração e as migrações foram preparadas, mas a validação final depende de um projeto Supabase configurado.
 
 ## Stack
 
