@@ -1,0 +1,1 @@
+export function Badge({ children, tone = 'default' }: { children: React.ReactNode; tone?: 'default' | 'green' }) { return <span className={`inline-flex rounded-full px-2.5 py-1 text-[11px] font-semibold ${tone === 'green' ? 'bg-acid/15 text-acid' : 'bg-white/10 text-muted'}`}>{children}</span>; }
